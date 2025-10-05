@@ -1,15 +1,15 @@
-import { useState } from 'react'
+import { useEffect,useState } from 'react'
 import './App.css'
-import Login from './Login'
+import Products from './Products'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  
   return (
     <>
-      <h1>Hello World</h1>
-      <Login/>
+      <h1>Products</h1>
+      <hr />
+      <Products Name="BMW" Price={20000} Tag="Car" />
+      <hr />
+      <Products Name="Samsung Galaxi S Ultra" Price={2000} Tag="Phone" />
     </>
   )
 }
