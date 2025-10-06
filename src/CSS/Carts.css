@@ -1,0 +1,26 @@
+.Carts{
+    width: auto;
+    height: auto;
+    background: linear-gradient(180deg,rgba(200,100,100),rgba(200,10,10));
+    padding: 50px;
+    margin: 25px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 20px;
+    border: 15px solid rgb(150,50,0);
+    border-radius: 50px;
+    box-shadow: inset 0px 10px 25px black;
+}
+    
+.Cart{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg,rgba(100,100,100,0), rgba(200,200,200,0.3),rgba(100,100,100,0),rgba(100,100,100,0.3));
+    border-radius: 30px;
+    border: 1px solid rgba(100,100,100,0.3);
+}

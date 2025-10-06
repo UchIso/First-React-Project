@@ -1,3 +1,7 @@
+*{
+  transition: .3s ease-out;
+}
+
 #Conteiner {
   width: 100%;
   height: auto;
@@ -13,4 +17,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
+  z-index: 1;
+}
+
+.Title{
+  width: 78%;
+  height: 80%;
+  box-shadow: 0px 5px 10px black;
+  border-radius: 50px;
+  background:linear-gradient(180deg, rgba(255,50,50),rgba(200,40,40)) ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Title:hover{
+  box-shadow: 0px 25px 50px black;
 }
